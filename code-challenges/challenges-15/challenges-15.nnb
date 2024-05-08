@@ -24,7 +24,7 @@
         {
             "language": "javascript",
             "source": [
-                "\r\nfunction equalizeArray(arr) {\r\n    // Write your code here\r\n    let arrayFilter = {};\r\n    \r\n    arr.filter((number) => {\r\n        arrayFilter[number] = (arrayFilter[number] || 0) + 1;\r\n    });\r\n    \r\n    let maxNumber = Math.max(...Object.values(arrayFilter));\r\n    let result = arr.length - maxNumber;\r\n\r\n    return result;\r\n}"
+                "function equalizeArray(arr) {\r\n    // Write your code here\r\n    let arrayFilter = {};\r\n    \r\n    arr.filter((number) => {\r\n        arrayFilter[number] = (arrayFilter[number] || 0) + 1;\r\n    });\r\n    \r\n    let maxNumber = Math.max(...Object.values(arrayFilter));\r\n    let result = arr.length - maxNumber;\r\n\r\n    return result;\r\n}"
             ],
             "outputs": []
         },

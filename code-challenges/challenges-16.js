@@ -84,9 +84,9 @@ const chickenGradients = (arr) => {
     //write your code here ...
     let ingredients = []
     arr.map(index => {
-         index.map(element => {
-            if(element.includes("chicken"))
-            ingredients.push([element])
+        index.map(element => {
+            if (element.includes("chicken"))
+                ingredients.push([element]);
         })
     })
     return ingredients;
